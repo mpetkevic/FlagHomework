@@ -12,6 +12,7 @@
 		FDB902251E94CB8A008CBAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB902231E94CB8A008CBAB1 /* Main.storyboard */; };
 		FDB902271E94CB8A008CBAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB902261E94CB8A008CBAB1 /* Assets.xcassets */; };
 		FDB9022A1E94CB8A008CBAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB902281E94CB8A008CBAB1 /* LaunchScreen.storyboard */; };
+		FDB902341E94CE1F008CBAB1 /* Italy_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB902331E94CE1F008CBAB1 /* Italy_flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FDB902261E94CB8A008CBAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB902291E94CB8A008CBAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB9022B1E94CB8A008CBAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB902331E94CE1F008CBAB1 /* Italy_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Italy_flag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,29 @@
 			children = (
 				FDB9021F1E94CB8A008CBAB1 /* AppDelegate.swift */,
 				FDB902211E94CB8A008CBAB1 /* ViewController.swift */,
+				FDB902311E94CBFF008CBAB1 /* Images */,
+				FDB902321E94CC15008CBAB1 /* Controllers */,
 				FDB902231E94CB8A008CBAB1 /* Main.storyboard */,
 				FDB902261E94CB8A008CBAB1 /* Assets.xcassets */,
 				FDB902281E94CB8A008CBAB1 /* LaunchScreen.storyboard */,
 				FDB9022B1E94CB8A008CBAB1 /* Info.plist */,
 			);
 			path = FlagHomework;
+			sourceTree = "<group>";
+		};
+		FDB902311E94CBFF008CBAB1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FDB902331E94CE1F008CBAB1 /* Italy_flag.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FDB902321E94CC15008CBAB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB9022A1E94CB8A008CBAB1 /* LaunchScreen.storyboard in Resources */,
+				FDB902341E94CE1F008CBAB1 /* Italy_flag.png in Resources */,
 				FDB902271E94CB8A008CBAB1 /* Assets.xcassets in Resources */,
 				FDB902251E94CB8A008CBAB1 /* Main.storyboard in Resources */,
 			);
